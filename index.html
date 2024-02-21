@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1><strong>Quizz</strong> Culture générale. 🧠</h1>
+        <form>
+          <div class="container">
+            <h5>Qui est sacré empereur de France le 2 décembre 1804 ?</h5>
+
+            <div>
+              <input type="radio" name="un" value="a" />
+              <label for="a">Clovis</label>
+            </div>
+
+            <div>
+              <input type="radio" name="un" value="b" />
+              <label for="b">Abraham Lincoln</label>
+            </div>
+            <div>
+              <input type="radio" name="un" value="c" />
+              <label for="c">Napoleon Bonaparte</label>
+            </div>
+          </div>
+          <div class="container">
+            <h5>
+              Quand la déclaration d'indépendance des Etats-Unis a-t-elle été
+              votée ?
+            </h5>
+            <div>
+              <input type="radio" name="deux" value="a" />
+              <label for="1776">4 juillet 1776</label>
+            </div>
+            <div>
+              <input type="radio" name="deux" value="b" />
+              <label for="1856">18 avril 1856</label>
+            </div>
+            <div>
+              <input type="radio" name="deux" value="c" />
+              <label for="1925">30 juin 1925</label>
+            </div>
+          </div>
+          <div class="container">
+            <h5>Quand a eu lieu la chute de l'empire romain d'occident ?</h5>
+            <div>
+              <input type="radio" name="trois" value="z" />
+              <label for="15">15 ap. J-C.</label>
+            </div>
+            <div>
+              <input type="radio" name="trois" value="b" />
+              <label for="476">476 ap. J-C.</label>
+            </div>
+            <div>
+              <input type="radio" name="trois" value="c" />
+              <label for="-740">-740 av. J-C.</label>
+            </div>
+          </div>
+          <div class="container">
+            <h5>Quelle est la capitale de la Slovénie</h5>
+            <div>
+              <input type="radio" name="quatre" value="a" />
+              <label for="ljubjana">Ljubjana</label>
+            </div>
+            <div>
+              <input type="radio" name="quatre" value="b" />
+              <label for="belgrade">Belgrade</label>
+            </div>
+            <div>
+              <input type="radio" name="quatre" value="c" />
+              <label for="bratislava">Bratislava</label>
+            </div>
+          </div>
+          <div class="container">
+            <h5>Combien d'habitants compte l'Irlande en 2020 ?</h5>
+            <div>
+              <input type="radio" name="cinq" value="a" />
+              <label for="a">1,365 Million</label>
+            </div>
+            <div>
+              <input type="radio" name="cinq" value="b" />
+              <label for="b">21 Millions</label>
+            </div>
+            <div>
+              <input type="radio" name="cinq" value="c" />
+              <label for="c">4,9 Millions</label>
+            </div>
+          </div>
+            <input type="submit" value="VALIDER 💣"  />
+            <div class="container-result">
+              <p class="text-result">Cliquez sur <strong>valider</strong> pour voir les
+                <strong>résultats.</strong></p>
+                <p class="first-result"></p>
+                <p class="second-result"></p>
+                <p class="third-result"></p>
+            </div>
+        </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
